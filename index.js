@@ -27,9 +27,9 @@ app.use("/style", express.static(path.join(__dirname, '/style')));
 
 
 app.use("/images", express.static(path.join(__dirname, 'images')));
-
+app.set('port', (process.env.PORT || 5000));
 
 //listen
-app.listen(80, function () {
-  console.log('localhost:80');
+app.listen(app.get('port'), function () {
+  console.log('localhost:'+app.get('port'));
 });

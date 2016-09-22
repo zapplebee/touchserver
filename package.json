@@ -9,10 +9,10 @@
   "repository" :
   { "type" : "git"
   , "url" : "https://github.com/zapplebee/ratefits.git"
-  }
-  "author": "Zachary Skalko",
-  "license": "MIT",
-  "dependencies": {
+  },
+  "author" : "Zachary Skalko",
+  "license" : "MIT",
+  "dependencies" : {
     "angular": "^1.5.8",
     "express": "^4.14.0",
     "node-sass-middleware": "^0.9.8",

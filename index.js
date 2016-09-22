@@ -30,6 +30,6 @@ app.use("/images", express.static(path.join(__dirname, 'images')));
 
 
 //listen
-app.listen(3000, function () {
-  console.log('localhost:3000');
+app.listen(80, function () {
+  console.log('localhost:80');
 });

@@ -1,14 +1,14 @@
 {
   "name": "ratefits",
   "version": "1.0.0",
-  "description": "",
+  "description": "A skeletal starting point for express apps.",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
   "repository" :
   { "type" : "git"
-  , "url" : "https://github.com/zapplebee/ratefits.git"
+  , "url" : "https://github.com/zapplebee/expressSkeleton.git"
   },
   "author" : "Zachary Skalko",
   "license" : "MIT",

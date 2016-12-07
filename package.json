@@ -1,4 +1,4 @@
- {
+{
   "name": "touchserver",
   "version": "1.0.0",
   "description": "Enable clicking a desktop from a browser window",
@@ -6,16 +6,24 @@
   "scripts": {
     "test": ""
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/zapplebee/touchserver.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zapplebee/touchserver.git"
   },
-  "author" : "Zachary Skalko",
-  "license" : "MIT",
-  "dependencies" : {
+  "author": "Zachary Skalko",
+  "license": "MIT",
+  "dependencies": {
     "angular": "^1.5.8",
+    "bmp-js": "0.0.3",
+    "desktop-screenshot": "^0.1.1",
     "express": "^4.14.0",
+    "file-type": "^3.9.0",
+    "jimp": "^0.2.27",
+    "lodash": "^4.17.2",
+    "lzma": "^2.3.2",
     "node-sass-middleware": "^0.9.8",
-    "pug": "^2.0.0-beta5"
+    "pug": "^2.0.0-beta5",
+    "robotjs": "^0.4.5",
+    "socket.io": "^1.7.1"
   }
 }
